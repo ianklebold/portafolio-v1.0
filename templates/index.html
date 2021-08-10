@@ -15,10 +15,15 @@
     <link rel="stylesheet" type="text/css" href="../static/css/index.css">
     <link rel="stylesheet" type="text/css" href="../static/css/aboutMe.css">
     <link rel="stylesheet" type="text/css" href="../static/css/proyectos.css">
-    <link rel="stylesheet" type="text" href="../static/css/proyectos.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/proyectos.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/parallax-fst.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/contactame.css">
 
     <!--Font Awesome-->
     <link rel="stylesheet" type="text/css" href="../static/fontawesome-free-5.15.3-web/css/all.css"> 
+
+
+
 </head>
 <body>
     <section class="containerprincipal">
@@ -26,16 +31,16 @@
             <nav class="containerprincipal__header--navegation">
                 <ul class="containerprincipal__navegation">
                     <li class="containerprincipal__navegation--item">
-                        <a class="navegation__item--enlace" href="#">Index</a> 
+                        <a class="navegation__item--enlace" href="#inicio">Inicio</a> 
                     </li>
                     <li class="containerprincipal__navegation--item">
-                        <a class="navegation__item--enlace"  href="#">Sobre mi</a>
+                        <a class="navegation__item--enlace"  href="#sobre-mi">Sobre mi</a>
                     </li>
                     <li class="containerprincipal__navegation--item">
-                        <a class="navegation__item--enlace" href="#">Proyectos</a>
+                        <a class="navegation__item--enlace" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="containerprincipal__navegation--item"> 
-                        <a class="navegation__item--enlace" href="#">Contactame</a>
+                        <a class="navegation__item--enlace" href="#contactame">Contactame</a>
                     </li>
                 </ul>
             </nav>
@@ -46,7 +51,7 @@
             <p>Bienvenido a mi protafolio V 1.0</p>
             
             <div class="containerprincipal__saludo--next">
-                <a href="#"><i class="fas fa-angle-double-down fa-lg" style="color: white;" ></i>  Sigueme!</a>
+                <a href="#inicio"><i class="fas fa-angle-double-down fa-lg" style="color: white;" ></i>  Sigueme!</a>
                     
             </div>
             
@@ -54,59 +59,218 @@
 
 
     </section>
-    <section class="contenedorsobremi">
-        <p><i class="fas fa-arrow-right"></i> Sobre mi</p>
-        <div class="contenedorsobremi__principal">
-            
-            <div class="contenedorsobremi__principal--sobreMi">
-                <div class="contenedorsobremi_principal--parrafo">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Optio eligendi est voluptatum obcaecati! Distinctio rem nemo dolorem velit adipisci, 
-                        ad voluptates dolore aliquam accusamus dolor quis omnis aut perferendis natus?
-                    </p>
-                </div>
+
+    <section class="contenedorparallax-fst">
+        <div class="image contenedorparallax-fst__image-background"  id="inicio">
+
+        </div>
+        <div class="image contenedorparallax-fst__image-middle">
+            <div class="card one"></div>
+            <div class="card two">
+                <h2 >Identificacion del tripulante</h2> 
+
+                <p>Apellido y nombre : Fernández Ian</p>
+
+                <p>Fecha de nacimiento : 10/08/2021</p>
+
+                <p>Nacionalidad y ciudad : Argentina, Chaco</p>
                 
-                <div class="contenedorsobremi__principal--foto">
-                    
-                </div>
-                <div class="contenedorsobremi__principal--comentariofoto">
-                        <p>Mi Foto de perfil en github</p>
-                        <p>Este personaje se llama IanKlebold</p>
-                </div>
-                <div class="contenedorsobremi__principal--next">
-                    <a href="#" class="contenedorsobremi__principal--enlace"><i class="fas fa-angle-double-down fa-lg" style="color: white;" ></i>  A los proyectos!</a>
-                </div>
+                <p>Formacion academica : </p>
+                <p>Ingenieria en sistemas de información</p>
+                <p>Universidad Tecnologica Nacional Facultad de Resistencia</p>
+                 
+                
+                <p id="sobre-mi">Mision : Graduarse en sus estudios. Estudiar y conocer otros planetas</p>
+                                  
+
             </div>
+             <div class="card three">
+                 <h2>Sobre mi</h2>
+                 <p>Me gusta la tecnologia, sobre todo el area de la inteligencia artificial, la
+                    programacion de sistemas y paginas webs. Me gusta resolver problemas, el
+                    trabajo en equipo, aprender y compartir conocimiento.
+                 </p>
+                 <p>Por otro lado me gusta la ciencia (en particular la matematica y la astrofisica), la musica, 
+                    el arte visual, los tatuajes, el fútbol y el verano.
+                 </p>
+                 <p>
+                     Los lenguajes de programacion que conozco son, C, Java, Python, HTML, CSS y Javascript, siendo mi
+                     preferido Python. Suelo crear proyectos en la red, con frameworks como Spring, Django y Bootstrap. 
+                 </p>
+             </div> 
+             <div class="card four"><p>Mira mis proyectos!</p></div>
+             <div class="card six">
+                 <p>Ey! Eso no es todo</p>
+                 <p>Tengo mas proyectos en mi repositorio en Github</p>
+                 <p>Pronto estaré actualizando con mas proyectos</p>
+                 <p>Hasta la vista internauta! Stay Safe!</p>
+            
+            </div>
+
+             <div class ="seven"><img src="../static/img/planetas/saturno-sinfondo.png" width="600px" height="400px"> </div>
+             <div class ="eight"><img src="../static/img/planetas/luna-sinFondo.png" width="400px" height="300px"> </div>
+        </div>
+        <div class="image contenedorparallax-fst__image-foreground">
+            <img src="../static/img/pixlr-bg-result(1).png">
+        </div>
+        <div class="image contenedorparallax-fst__image-foreground--two">
+            <img src="../static/img/3d28c8c2f48af50b92d9ce73187df747-personaje-de-yoga-astronauta.png">
+        </div>
+        <div class="image contenedorparallax-fst__image-foreground--three">
+            <img src="../static/img/5f492fa368ecc70004ae70e6.png">
+        </div>
+        <div class="image contenedorparallax-fst__image-foreground--four">
+            <img src="../static/img/pixlr-bg-result3.png"></a>
+        </div>
+
+        <div class="image card five__proyect" id="proyectos">
+            <h3>Proyecto #1 : FrontEnd para inmobiliaria DOMUS</h3>
+            
+            <p> 
+                Domus es una inmobiliaria la cual requeria implementar una aplicacion web para
+                llevar al dia las citas, trabajos y eventos de la organizacion. A su vez necesitaban 
+                ayuda para contactar con clientes y poner al dia a los agentes inmobiliarios con sus
+                actividades.
+
+            </p>
+
+            <p>
+                En este proyecto me encargué del FrontEnd de la pagina web, la misma fue realizada con 
+                HTML, CSS y JavaScript, apoyandonos del framework Bootstrap 5.
+            </p>
+            <p>
+                Actualmente el proyecto en frontend sigue recibiendo mejoras pendientes y a su vez se encuentra
+                en desarrollo el Backend con la tecnologia de Spring MVC. 
+            </p>
+            <ul class="five__proyect--contenedor">
+                <li><a href="#" class = "enlaces-proyecto"> Ir al repositorio</a></li>
+                <li><a href="#" class = "enlaces-proyecto">Imagenes del proyecto</a></li>     
+            </ul>
             
             
-        </section>
+
+
+        </div>
+
+        <div class="image card five__proyect--two">
+            <h3>Proyecto en Django #2 : Pagina web para donadores de plasma</h3>
+            
+            <p> 
+                El proyecto fue llevado a cabo con el fin de servir a la comunidad interesada
+                en donar plasma para tratar los sintomas del virus COVID-19. La pagina servia informacion
+                y asesoramiento y lugares de donde donar plasma.
+            </p>
+
+            <p>
+                En este proyecto me encargué del Backend de la pagina web, la misma fue realizada con 
+                Django framework del lenguaje Python. Para el FrontEnd se utilizó HTML, CSS y algo de Bootstrap.
+            </p>
+
+            <ul class="five__proyect--contenedor">
+                <li><a href="#" class = "enlaces-proyecto"> Ir al repositorio</a></li>
+                <li><a href="#" class = "enlaces-proyecto">Imagenes del proyecto</a></li>     
+            </ul>
+            
+            
+
+
+        </div>
+
+        <div class="image card five__proyect--three">
+            <h3>Proyecto #3 : Galaxian</h3>
+            
+            <p> 
+                Galaxian es un videojuego creado con un grupo de estudiantes de la universidad a la cual estudio.
+                El videojuego se trata de eliminar tantos aliens como sea posible, sumando la mayor cantidad de puntos
+                intentado superar records. El juego contaba con menu de opciones, tablero del juego, dificultad que incrementaba
+                nivel a nivel y una tabla de los mejoes puntajes.
+
+            </p>
+
+            <p>
+                Este proyecto lo hicimos ni mas ni menos que con el mitico lenguaje programacion orientada a objetos
+                Smalltalk, aprovechando de las herramientas Morph que proporcionaba el lenguaje.
+            </p>
+            <p>
+                Para la ejecucion del juego fue necesario tener la IDE Pharo la cual nos permite correr el lenguaje Smalltalk.
+            </p>
+            <ul class="five__proyect--contenedor">
+                <li><a href="#" class = "enlaces-proyecto"> Ir al repositorio</a></li>
+                <li><a href="#" class = "enlaces-proyecto">Imagenes del proyecto</a></li>     
+            </ul>
+            
+            
+
+
+        </div>
+
+        <div class="image card five__proyect--four">
+            <h3>Proyecto #4 : Red social de apuntes</h3>
+            
+            <p> 
+                La red social de apuntes fue un mini proyecto realizado en el verano del 2021. Nacio como propuesta
+                para poder compartir apuntes, notas, modelos de examenes, actividades, ejercicios de la facultad. La
+                idea era compartir conocimiento a traves de una red social de apuntes, donde uno podia loguearse, configurar su perfil
+                y compartir sus conocimientos
+
+            </p>
+
+            <p>
+                Este proyecto fue realizado con Python en el framework Django, utilizando solamente HTML y CSS
+            </p>
+            <p>
+                Actualmente este proyecto fue suspendido por falta de tiempo, espero poder retomarlo, mejorando su codigo en tanto
+                funcionalidad y legibilidad del codigo implica. 
+            </p>
+            <ul class="five__proyect--contenedor">
+                <li><a href="#" class = "enlaces-proyecto"> Ir al repositorio</a></li>
+                <li><a href="#" class = "enlaces-proyecto">Imagenes del proyecto</a></li>     
+            </ul>
+
+        </div>
+
+        <div class="image contenedorparallax-fst__image-foreground--five">
+            <a href="https://github.com/ianklebold?tab=repositories" target="blank">
+                <img src="../static/img/github-logo.png">
+            </a>  
+        </div>
+        
+    </section>
+
+    <div class="container" id="contactame">
+        <div class="wrapper">
+            <img class="imagen-contact" src="../static/img/1601829960534.jpeg" width="200" height="200"> 
+
+            <div class="title"></div>
+            <div class="place"></div>
+
+        
+            <div class="content">
+                <p>Ian Fernandez</p>
+                <div class="buttons">
+                    <div>
+                       <a href="https://www.instagram.com/ian.onion/" target="blank"> <i class="fab fa-instagram fa-3x"></i> Instagram </a>
+                    </div>
+                    <div class="btn">
+                        <a href="https://www.linkedin.com/in/ian-fern%C3%A1ndez-a72598179/" target="blank"> <i class="fab fa-linkedin fa-3x"></i> Linkedin </a>
+                    </div>
+                    <div class="btn">
+                        <a href="https://github.com/ianklebold" target="blank"> <i class="fab fa-github fa-3x"></i> Github </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        
+    </div>
+
+
        
 
     </section>
-
-    <section class="contenedorsobremi">
-        <p><i class="fas fa-arrow-right"></i> Proyectos </p>
-
-
-    </section>
-
-    <section class="contenedorsobremi">
-        <p><i class="fas fa-arrow-right"></i> Contactame </p>
-
-
-        <div class="contenedorsobremi__proyecto">
-            <div class="contenedorsobremi__pic--box">
-                <a href="#">
-                    <img src="../static/img/1601829960534.jpeg" width="200" height="200">
-                </a>
-                <div class="contenedorsobremi__pic--title"></div>
-                <div class="contenedorsobremi__pic--place"></div>
-            </div>
-        </div>
-
-    </section>
-
     <script src="../static/fontawesome-free-5.15.3-web/js/all.js"></script>
+
 </body>
 </html>

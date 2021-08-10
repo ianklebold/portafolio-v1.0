@@ -1,5 +1,6 @@
 body{
-    background-color : #02111C;
+    background: rgb(50,11,68);
+    background: linear-gradient(90deg, rgba(50,11,68,1) 0%, rgba(24,15,40,1) 44%, rgba(83,65,140,1) 100%, rgba(188,242,254,1) 100%, rgba(92,171,224,1) 100%, rgba(9,121,104,1) 100%);
     margin : 0;
     padding : 0;
 }
@@ -20,6 +21,13 @@ a{
     width : 100%;
     height: 655px;
     position:relative;
+
+
+    -moz-box-shadow: 0px 32px 12px #260d26;
+    -webkit-box-shadow: 0px 32px 12px #260d26;
+    box-shadow: 0px 32px 12px #260d26;
+
+
 }
 
 .containerprincipal__header{

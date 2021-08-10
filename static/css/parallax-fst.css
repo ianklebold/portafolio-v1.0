@@ -1,0 +1,231 @@
+.contenedorparallax-fst{
+    margin-top : 15em;
+    width:100%;
+    height:100vh;
+    perspective:8px;
+    perspective-origin: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position : relative;
+}
+
+
+.contenedorparallax-fst__image-background{
+    margin-top : 5%;
+    margin-left: 10%;
+    width : 80%;
+    height : 3500px;
+    background-image: url(../img/auroral-belt_2.jpg);
+    background-size: 1500px 1526px;
+    object-fit: cover;
+
+
+
+    -moz-box-shadow:inset 10px 10px 5px #260d26;
+    -webkit-box-shadow:inset 10px 10px 5px #260d26;
+    box-shadow:inset 10px 10px 5px #260d26;
+
+
+    -moz-box-shadow: -15px -47px 14px #260d26;
+    -webkit-box-shadow: -15px -47px 14px #260d26;
+    box-shadow: -15px -47px 14px #260d26;
+
+    transform: translateZ(0px) scale(1);
+    transform-origin : 0 50%;
+   
+
+    
+}
+
+.image{
+    position : absolute;
+    left : 0;
+    right : 0;
+    margin : 0 auto;
+    transform : 0 50%;
+}
+
+.contenedorparallax-fst__image-middle{
+    height : 100%;
+    width : 100%;
+    /*
+        perspective:8px;
+        tranlateZ(5px);
+
+        8-5/8 = 0.375
+    
+    */
+
+    transform: translateZ(5px) scale(0.375);
+    transform-origin : 50%;
+}
+
+.contenedorparallax-fst__image-foreground{
+    margin-top : 10em;
+    transform: translateZ(2px) scale(0.75);
+    transform-origin : top;
+}
+
+.contenedorparallax-fst__image-foreground--two{
+    margin-left: 35em;
+    margin-top : 45em;
+    transform: translateZ(2px) scale(0.75);
+    transform-origin : top;
+}
+
+.contenedorparallax-fst__image-foreground--three{
+    margin-left : 7em;
+    margin-top : 160em;
+    transform: translateZ(4px) scale(0.5);
+    transform-origin : top;
+}
+
+.contenedorparallax-fst__image-foreground--four{
+    margin-left : 7em;
+    margin-top : 72em;
+    transform: translateZ(2px) scale(0.5);
+    transform-origin : top;
+}
+
+.contenedorparallax-fst__image-foreground--five{
+    margin-left : 7em;
+    margin-top : 190em;
+    transform: translateZ(0.5px) scale(0.5);
+    transform-origin : top;
+}
+
+
+.card{
+    background : white;
+    border-radius: 8px;
+    width : 300px;
+    height : 400px;
+    position: absolute;
+    transform : rotate(-20deg);
+
+    box-shadow: 0 0 1rem 0 rgba(255, 76, 41, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size : 16px;
+}
+
+.card:before{
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 76, 41, 0.5);
+    filter: blur(10px);
+    margin: -20px;
+
+    
+}
+.five__proyect--contenedor, li{
+    display : flex;
+    margin-left: 2em;
+}
+
+.five__proyect--contenedor, li, a{
+}
+
+.five__proyect--contenedor, a:hover{
+    text-decoration: underline;
+}
+
+
+.one{
+    left : 20%;
+    width : 60px;
+    height : 80px;
+}
+
+.two{
+    right : 10%;
+    top : 200px;
+}
+
+.three{
+    right : 50%;
+    width : 400px;
+    bottom : -1500px;
+    transform : rotate(0deg);
+
+    
+}
+
+.four{
+    right : 20%;
+    width : 300px;
+    height : 80px;
+    bottom : -2000px;
+    transform : rotate(0deg);
+
+}
+.six{
+    right : 10%;
+    width : 300px;
+    height : 200px;
+    bottom : -7300px;
+    transform : rotate(-10deg);
+
+}
+
+.seven{
+    margin-top: 280em;
+    margin-left : 5em;
+    right : 10%;
+    width : 300px;
+    height : 80px;
+    bottom : -8000px;
+}
+
+.eight{
+    margin-top: 50em;
+    margin-left : 50em;
+    right : 10%;
+    width : 300px;
+    height : 80px;
+    bottom : -5000px;
+}
+
+.five__proyect{
+    right : 0%;
+    width : 1000px;
+    height : 300px;
+    bottom : -1200px;
+    transform : rotate(0deg);
+
+
+}
+
+.five__proyect--two{
+    right : 0%;
+    width : 1000px;
+    height : 300px;
+    bottom : -1600px;
+    transform : rotate(0deg);
+}
+
+.five__proyect--three{
+    right : 0%;
+    width : 1000px;
+    height : 300px;
+    bottom : -2000px;
+    transform : rotate(0deg);
+}
+
+.five__proyect--four{
+    right : 0%;
+    width : 1000px;
+    height : 300px;
+    bottom : -2400px;
+    transform : rotate(0deg);
+}
